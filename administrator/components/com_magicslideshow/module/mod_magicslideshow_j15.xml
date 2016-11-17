@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5" method="upgrade" client="site">
+    <name>mod_magicslideshow</name>
+    <creationDate>2013-04-25</creationDate>
+    <author>www.magictoolbox.com</author>
+    <authorEmail>support@magictoolbox.com</authorEmail>
+    <authorUrl>http://www.magictoolbox.com</authorUrl>
+    <copyright>Copyright (C) 2013 Magic Toolbox. All rights reserved.</copyright>
+    <license>http://www.magictoolbox.com/license</license>
+    <version>3.2.4</version>
+    <releaseDate>2016-10-28</releaseDate>
+    <description>MOD_MAGICSLIDESHOW_DESCRIPTION</description>
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.mod_magicslideshow.ini</language>
+        <language tag="en-GB">en-GB.mod_magicslideshow.sys.ini</language>
+    </languages>
+    <media folder="media" destination="mod_magicslideshow">
+        <filename>index.html</filename>
+    </media>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename module="mod_magicslideshow">mod_magicslideshow.php</filename>
+    </files>
+</install>

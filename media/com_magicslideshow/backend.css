@@ -1,0 +1,303 @@
+.icon-48-magicslideshow {
+    background-image: url(images/icon-48-magicslideshow.png);
+}
+#container {
+    margin: 0 auto;
+    text-align: left;
+    width: 1020px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+    border-radius: 5px;
+}
+h2 {
+    color: #268CCD;
+    font-size: 1.4em;
+    margin: 0 0 0.83em;
+}
+fieldset {
+    background: none repeat scroll 0 0 #FFFFF0;
+    border: 1px solid #CCCCCC !important;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 5px !important;
+    border-radius: 5px;
+}
+legend {
+    font-family: Trebuchet,Arial,Helvetica,sans-serif;
+    background: none repeat scroll 0 0 #FFF6D3;
+    border: 1px solid #CCCCCC !important;
+    font-weight: 700;
+    margin: 0;
+    padding: 5px !important;
+    text-align: left;
+    border-radius: 5px;
+    width: auto !important;
+    line-height: normal !important
+}
+label {
+    float: left;
+    font-weight: bold;
+    padding: 0.2em 0.5em 0 0;
+    /*padding: 0;*/
+    text-align: right;
+    width: 200px;
+}
+.margin-form {
+    color: #7F7F7F;
+    font-size: 0.85em;
+    padding: 0 0 1em 210px;
+}
+.clear {
+    clear: both;
+}
+.pspace {
+    padding-top: 1em;
+}
+input[type="text"], input[type="password"], input[type="file"], textarea {
+    border: 1px solid #E0D0B1;
+}
+input[type="text"], input[type="password"], input[type="file"], textarea, select, option {
+    background-color: #FFFFFF;
+}
+input[type="text"], input[type="password"], input[type="file"], textarea {
+    padding: 2px 4px;
+}
+input[type="radio"], input[type="checkbox"] {
+    background-color: transparent;
+}
+input, textarea, option {
+    color: #000000;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+input {
+    vertical-align: middle;
+}
+input[disabled] {
+    color: #AFADAA;
+}
+select {
+    border: 1px solid #E0D0B1;
+    font-size: 12px;
+}
+label.t {
+    clear: none;
+    float: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    /*padding: 0;*/
+    padding: 0 4px;
+    /*padding:0.2em 0 0; */
+    width: auto;
+    text-align: left;
+    display: inline;
+}
+label img {
+    vertical-align: bottom;
+    padding: 0 4px 0 0;
+}
+.hint {
+    background-color: #FFFFCC;
+    border: 1px solid #CC9933;
+    color: #7F7F7F;
+    display: block;
+    left: 0px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    padding: 6px;
+    position: relative;
+    width: 501px;
+}
+.margin-form input[type=text] {
+    width: 496px;
+}
+#magicscroll_icon {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+.margin-form a, .margin-form a:hover, .margin-form a:visited {
+    color: #CC9933;
+}
+
+/* NOTE: redefine some joomla styles */
+.magic_tabContWrapper input,
+.magic_tabContWrapper img {
+    float: none;
+}
+
+.magic_tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 132px;
+    position: relative;
+    z-index: 1;
+}
+.magic_tabs li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.magic_tabs a {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: -1px;
+    border: 1px solid #CCCCCC;
+    color: #CC9933;
+    font-weight: bold;
+    line-height: 22px;
+    margin-right: -1px;
+    padding: 2px 5px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.magic_tabs a.tabactive {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background: #fff;
+    border-right: none;
+    width: 121px;
+}
+.magic_tabs li a:hover {
+    background: #CC9933;
+    color: #fff;
+    text-decoration: none;
+    border-right: none;
+}
+.magic_tabs li a.tabactive:hover {
+    background: #fff;
+    color: #000;
+}
+.magic_tabCont {
+    display: none;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.magic_tabContWrapper {
+    float: left;
+    width: 850px;
+    clear: right;
+    margin: 0;
+    margin-left: -1px;
+}
+.magic_tabCont.magic_active {
+    display: block;
+}
+.magic_tabCont div.margin-form label {
+    padding: 0 4px;
+}
+.magic_tabCont label {
+    padding: 0;
+    width: 200px;
+}
+.magic_tabCont .margin-form label {
+    padding: 0.2em 0 0;
+    margin-right: 10px;
+    width: auto;
+}
+.magic_tabCont .margin-form {
+    padding-top: 1px !important;
+    padding-left: 210px !important;
+}
+.magic_hint {
+    display: block;
+    position: relative;
+    left: 0px;
+    width: 496px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    border: 1px solid #CCCCCC;
+    padding: 6px;
+    color: #7F7F7F;
+    background-color: #ffc;
+}
+.magic_tabCont fieldset {
+    margin: 17px 0px;
+}
+
+div.upload-container {
+    text-align: center;
+    overflow: hidden;
+    width: 112px;
+    height: 24px;
+    margin: 10px 0 0;
+}
+input.upload-button {
+    background-color: #599659;
+    border: 1px solid #A8A8A8;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    width: 112px !important;
+    height: 24px;
+}
+input.upload-file {
+    margin-top: -24px;
+    margin-left:-410px;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    font-size: 150px;
+    height: 100px !important;
+    cursor: pointer;
+}
+#magicslideshow_images {
+    border: 1px solid #DFD5C3;
+    border-bottom: none;
+}
+#magicslideshow_images th {
+    background: none repeat scroll 0 0 #F2F2F2;
+    padding: 0 1px 0 1px;
+    text-align: center;
+    border-bottom: 1px solid #DFD5C3;
+    border-right: 1px solid #DFD5C3;
+}
+#magicslideshow_images th:last-child {
+    border-right: none;
+}
+#magicslideshow_images td {
+    padding: 4px 1px;
+    text-align: center;
+    border-bottom: 1px solid #DFD5C3;
+}
+#magicslideshow_images img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+#magicslideshow_images input[type="text"], #magicslideshow_images textarea {
+    width: 193px;
+}
+#magicslideshow_images textarea {
+    min-width: 193px;
+    max-width: 193px;
+    min-height: 18px;
+}
+.jommla-ver-16 #magicslideshow_images input[type="text"], #magicslideshow_images textarea {
+    width: 186px;
+}
+.jommla-ver-16 #magicslideshow_images textarea {
+    min-width: 186px;
+    max-width: 186px;
+    min-height: 18px;
+}
+
+#magicslideshow_images input[type="text"].input-order {
+    width: 18px;
+}

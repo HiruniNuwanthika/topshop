@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6" method="upgrade" client="administrator">
+    <name>com_magicslideshow</name>
+    <creationDate>2013-04-25</creationDate>
+    <author>www.magictoolbox.com</author>
+    <authorEmail>support@magictoolbox.com</authorEmail>
+    <authorUrl>http://www.magictoolbox.com</authorUrl>
+    <copyright>Copyright (C) 2013 Magic Toolbox. All rights reserved.</copyright>
+    <license>http://www.magictoolbox.com/license</license>
+    <version>3.2.4</version>
+    <releaseDate>2016-10-28</releaseDate>
+    <description>Magic Slideshow for Joomla Component</description>
+    <install>
+        <sql>
+            <file driver="mysql">sql/install.mysql.sql</file>
+            <file driver="mysql" charset="utf8">sql/install.mysql.sql</file>
+            <file driver="mysqli">sql/install.mysql.sql</file>
+            <file driver="mysqli" charset="utf8">sql/install.mysql.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql">sql/uninstall.mysql.sql</file>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.sql</file>
+            <file driver="mysqli">sql/uninstall.mysql.sql</file>
+            <file driver="mysqli" charset="utf8">sql/uninstall.mysql.sql</file>
+        </sql>
+    </uninstall>
+    <scriptfile>magicslideshow_installer.php</scriptfile>
+    <media folder="media" destination="com_magicslideshow">
+        <filename>backend.css</filename>
+        <filename>images/bottom.gif</filename>
+        <filename>images/icon-16-magicslideshow.png</filename>
+        <filename>images/icon-48-magicslideshow.png</filename>
+        <filename>images/index.html</filename>
+        <filename>images/left.gif</filename>
+        <filename>images/logo.gif</filename>
+        <filename>images/no.gif</filename>
+        <filename>images/right.gif</filename>
+        <filename>images/top.gif</filename>
+        <filename>images/yes.gif</filename>
+        <filename>index.html</filename>
+    </media>
+    <administration>
+        <menu img="../media/com_magicslideshow/images/icon-16-magicslideshow.png" link="option=com_magicslideshow">com_magicslideshow_menu</menu>
+        <files folder="admin">
+            <filename>controller.php</filename>
+            <filename>helpers/helper.php</filename>
+            <filename>helpers/index.html</filename>
+            <filename>index.html</filename>
+            <filename>magicslideshow.php</filename>
+            <filename>module/index.html</filename>
+            <filename>module/language/en-GB/en-GB.mod_magicslideshow.ini</filename>
+            <filename>module/language/en-GB/en-GB.mod_magicslideshow.sys.ini</filename>
+            <filename>module/language/index.html</filename>
+            <filename>module/media/index.html</filename>
+            <filename>module/mod_magicslideshow.xml</filename>
+            <filename>module/mod_magicslideshow_j15.xml</filename>
+            <filename>module/site/index.html</filename>
+            <filename>module/site/mod_magicslideshow.php</filename>
+            <filename>plugin/index.html</filename>
+            <filename>plugin/language/en-GB/en-GB.plg_system_magicslideshow.ini</filename>
+            <filename>plugin/language/en-GB/en-GB.plg_system_magicslideshow.sys.ini</filename>
+            <filename>plugin/language/en-GB/index.html</filename>
+            <filename>plugin/language/index.html</filename>
+            <filename>plugin/magicslideshow.xml</filename>
+            <filename>plugin/magicslideshow_j15.xml</filename>
+            <filename>plugin/media/graphics/index.html</filename>
+            <filename>plugin/media/index.html</filename>
+            <filename>plugin/media/magicslideshow.css</filename>
+            <filename>plugin/media/magicslideshow.js</filename>
+            <filename>plugin/media/magicslideshow.module.css</filename>
+            <filename>plugin/media/magictoolbox.css</filename>
+            <filename>plugin/media/themes/default/graphics/buttons.png</filename>
+            <filename>plugin/media/themes/default/graphics/buttons@2x.png</filename>
+            <filename>plugin/media/themes/default/graphics/loader.gif</filename>
+            <filename>plugin/media/themes/default/magicslideshow.default.css</filename>
+            <filename>plugin/media/themes/magicslideshow.core.css</filename>
+            <filename>plugin/site/index.html</filename>
+            <filename>plugin/site/magicslideshow.php</filename>
+            <filename>plugin/site/magicslideshow_classes/index.html</filename>
+            <filename>plugin/site/magicslideshow_classes/magicslideshow.module.core.class.php</filename>
+            <filename>plugin/site/magicslideshow_classes/magictoolbox.imagehelper.class.php</filename>
+            <filename>plugin/site/magicslideshow_classes/magictoolbox.params.class.php</filename>
+            <filename>sql/index.html</filename>
+            <filename>sql/install.mysql.sql</filename>
+            <filename>sql/uninstall.mysql.sql</filename>
+            <filename>views/default/index.html</filename>
+            <filename>views/default/tmpl/default.php</filename>
+            <filename>views/default/tmpl/index.html</filename>
+            <filename>views/default/view.html.php</filename>
+            <filename>views/index.html</filename>
+        </files>
+        <languages folder="language">
+            <language tag="en-GB">en-GB.com_magicslideshow.ini</language>
+            <language tag="en-GB">en-GB.com_magicslideshow.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

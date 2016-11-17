@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension version="2.5" type="template" client="site">
+    <name>Storeslab_2</name>
+    <creationDate>08-04-2014</creationDate>
+    <author>Linelabox.com</author>
+    <authorEmail>linelabox@linelabox.com</authorEmail>
+    <authorUrl>http://www.linelabox.com</authorUrl>
+    <copyright>Copyright 2014 - Linelabox.com</copyright>
+  	<license>GNU General Public License version 2</license>
+  	<version>1.1.4</version>
+	<description>TPL_ULTIMELAB_XML_DESCRIPTION</description>
+		<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>html</folder>
+    <folder>assets</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<filename>index.php</filename>
+		<filename>Info.txt</filename>
+		<filename>template_thumbnail.jpg</filename>
+		<filename>template_preview.jpg</filename>
+		<filename>templateDetails.xml</filename>		
+	</files>
+	<positions>
+  <position>parallaxlab</position>
+  <position>vmproducts</position>
+   <position>topslideshow</position>
+    <position>slideshow</position>
+	<position>topright</position>
+    <position>topmenuleft</position>
+    <position>topmenucenter</position>
+    <position>topmenuright</position>
+    <position>bottomleft</position>
+    <position>bottomcenter</position>
+    <position>bottomright</position>
+    <position>social</position>
+    <position>vmrandom</position>
+    <position>scroller</position>
+    <position>position-0</position>
+	<position>position-1</position>
+	<position>position-2</position>
+	<position>position-3</position>
+	<position>position-4</position>
+    <position>position-5</position>
+	<position>position-6</position>
+	<position>position-7</position>
+	<position>position-8</position>
+    <position>position-9</position>
+    <position>position-10</position>
+    <position>position-11</position>
+    <position>position-12</position>
+		<position>footerload</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_storeslab_2.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_storeslab_2.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+		<fieldset name="advanced">
+					<field name="sitetitle"  type="text" default="Storeslab_2"
+					label="TPL_ULTIMELAB_FIELD_SITETITLE_LABEL"
+					description="TPL_ULTIMELAB_FIELD_SITETITLE_DESC"
+					filter="string"></field>
+					<field name="display_slideshow" type="list" default="1" label="TPL_ULTIMELAB_DISPLAY_SLIDESHOW" description="TPL_ULTIMELAB_DISPLAY_SLIDESHOW_DESC">
+<option value="0">TPL_ULTIMELAB_NO</option>
+<option value="1">TPL_ULTIMELAB_YES</option>
+</field>
+<field name="frontpage" type="list" default="1" label="TPL_ULTIMELAB_SHOW_FRONTAPGE" description="TPL_ULTIMELAB_SHOW_FRONTAPGE_DESC">
+<option value="1">Enabled</option>
+<option value="0">Disabled</option>
+</field>
+<field name="display_logo" type="list" default="0" label="TPL_ULTIMELAB_LOGO_IMAGE" description="TPL_ULTIMELAB_LOGO_IMAGE_DESC">
+<option value="0">TPL_ULTIMELAB_LOGONO</option>
+<option value="1">TPL_ULTIMELAB_LOGOYES</option>
+</field>
+<field name="templogo" type="media" default="templates/storeslab_2/images/logo.png" directoryimg="1" label="TPL_ULTIMELAB_LOGO" description="TPL_ULTIMELAB_LOGO_DESC" />
+<field name="spacer1" type="spacer" hr="true" />
+<field name="slideshow1" type="media" default="templates/storeslab_2/images/image01.jpg" directoryimg="1" label="TPL_ULTIMELAB_SLIDESHOW" description="TPL_ULTIMELAB_SLIDESHOW_DESC" />
+<field name="spacer2" type="spacer" hr="true" />
+<field name="description1" type="editor" buttons="true" hide="pagebreak,readmore" class="inputbox" label="TPL_ULTIMELAB_FIELD_DESCRIPTION1_LABEL" filter="safehtml" description="TPL_ULTIMELAB_FIELD_DESCRIPTION1_DESC" />
+<field name="spacer3" type="spacer" hr="true" />
+<field name="slideshow2" type="media" default="templates/storeslab_2/images/image02.jpg" directoryimg="1" label="TPL_ULTIMELAB_SLIDESHOW" description="TPL_ULTIMELAB_SLIDESHOW_DESC" />
+<field name="spacer4" type="spacer" hr="true" />
+<field name="description2" type="editor" buttons="true" hide="pagebreak,readmore" class="inputbox" label="TPL_ULTIMELAB_FIELD_DESCRIPTION2_LABEL" filter="safehtml" description="TPL_ULTIMELAB_FIELD_DESCRIPTION2_DESC" />
+<field name="spacer5" type="spacer" hr="true" />
+<field name="slideshow3" type="media" default="templates/storeslab_2/images/image03.jpg" directoryimg="1" label="TPL_ULTIMELAB_SLIDESHOW" description="TPL_ULTIMELAB_SLIDESHOW_DESC" />
+<field name="spacer6" type="spacer" hr="true" />
+<field name="description3" type="editor" buttons="true" hide="pagebreak,readmore" class="inputbox" label="TPL_ULTIMELAB_FIELD_DESCRIPTION3_LABEL" filter="safehtml" description="TPL_ULTIMELAB_FIELD_DESCRIPTION3_DESC" />
+</fieldset>
+		</fields>
+	</config>
+</extension>

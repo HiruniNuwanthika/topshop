@@ -1,0 +1,250 @@
+Template settings:
+
+Main Menu module (position-1, position-9, position-10, position-11)
+In the administrative back end, navigate to Extensions → Module Manager and open the Main Menu for editing.
+Click on the Advanced Parameters. Please set Menu Tag ID to "nav" without a leading space.
+Show Sub-menu Items set to yes.
+Save!
+
+Bottom Menu modules (position-9 or position-10 or position-11)
+In the administrative back end, navigate to Extensions → Module Manager and open the Menu module for editing.
+Click on the Advanced Parameters > Set module parameters:
+Show Sub-menu Items set to NO.
+Save!
+
+Top Menu module (topmenuleft)
+In the administrative back end, navigate to Extensions → Module Manager and open the Main Menu for editing.
+Click on the Advanced Parameters. Please set Menu Class Suffix to "list" without a leading space.
+Show Sub-menu Items set to No.
+Save!
+
+Main Menu module or VirtueMart menu module (position-6 / position-7)
+In the administrative back end, navigate to Extensions → Module Manager and open the Main Menu / VirtueMart category for editing.
+Click on the Advanced Parameters → set Module class suffix to " line1 line1br line1t" with a leading space.
+
+How to activate Flexslider slideshow?
+Go to Admin Joomla > Extensions > Module Manager > click to New > Custom HTML > add any custom output.
+
+Set module parameters
+Position: position-12 (boxed) or topslideshow (fluid)
+Status: Published
+Module Assigment: On All Pages or select specific pages (Homepage etc..)
+Save!
+
+In the administrative back end, navigate to Extensions → Template manager → Your Template → set Flexslider for slideshow.
+Upload images > add Slideshow description.
+Save!
+
+How to activate AnythingSlider slideshow or Custom slideshow module?
+In the administrative back end, navigate to Extensions → Template manager → Your Template → set AnythingSlider for slideshow.
+Go to Admin Joomla > Extensions > Module Manager > click to New > Custom HTML > add custom output.
+
+Set module parameters
+Position: position-12 (boxed) or topslideshow (fluid)
+Status: Published
+Module Assigment: On All Pages or select specific pages (Homepage etc..)
+Save!
+
+If you are using TinyMCE or JCE editor please disable it via user manager.
+Custom output for AnythingSlider slideshow (Example):
+
+<ul id="slider2">
+<li class="panel1">
+<div class="textSlide">
+<div class="enith"><div class="span5"><img src="images/example.png" border="0" alt="HP" /></div>
+<div class="span6">
+<h3>HP Probook</h3>
+<ul>
+<li>Attractive metal design</li>
+<li>Comfortable keyboard</li>
+<li>Security features</li>
+<li>Loud speakers</li>
+<li>HD webcam</li>
+</ul>
+<p>Work, meet, play. Create, stream, watch, listen, and do more on this durable, stylish notebook.</p>
+<p>This versatile, secure HP ProBook boasts a 15.6-inch diagonal HD display sure to make an impression in and out of the office.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="panel2">
+<div class="quoteSlide">
+<div class="enith"><div class="span5"><img src="images/ipad.png" border="0" alt="Nokia Lumia" /></div>
+<div class="span6">
+<h3>Nokia Lumia</h3>
+<ul>
+<li>Seamless design</li>
+<li>8 MP Auto Focus with Carl Zeiss Optics</li>
+<li>2x LED Flash and HD Video</li>
+<li>Facebook, Twitter, LinkedIn, email, Chat...</li>
+<li>Bing, Internet Explorer 9, HTML5, Wi-Fi</li>
+</ul>
+<p>Phasellus a ullamcorper risus. Sed vulputate purus consequat elit fringilla fermentum. Duis posuere tristique ultrices. Maecenas enim massa, volutpat auctor fermentum tristique, feugiat lacinia mi. Aenean eros enim, aliquam eget rhoncus a, sollicitudin id purus. Cras ultricies, purus a rhoncus ullamcorper, metus mauris congue velit, a dignissim neque tellus et tortor. Mauris sagittis, turpis vel rhoncus posuere, purus justo bibendum magna, nec varius nunc arcu et lectus.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="panel3">
+<div class="expand">
+<div class="enith"><div class="span5"><img src="images/example.png" border="0" alt="ipad3"/></div>
+<div class="span6">
+<h3>Apple iPad 3</h3>
+<p>Retina display, 9.7-inch (diagonal) LED-backlit glossy widescreen Multi-Touch display with IPS technology. 2048-by-1536-pixel resolution at 264 pixels per inch (ppi). Fingerprint-resistant oleophobic coating. Support for display of multiple languages and characters simultaneously.</p>
+<p>Dual-core Apple A5X custom-designed, high-performance, low-power system-on-a-chip with quad-core graphics.</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+How to activate Social Icons?
+If you are using TinyMCE or JCE editor please disable it via user manager.
+
+Go to Admin Joomla > Extensions > Module Manager > click to New > Custom HTML > add this code:
+
+<div class="labsocial-icons">
+<a class="tooltips icon facebook sicolorname sishadow sirounded sisquare" href="http://www.facebook.com/" target="_blank" data-original-title="Follow us on Facebook" data-toggle="tooltip" data-placement="top">
+<i class="icon-facebook icon-large"></i>
+</a>
+<a class="tooltips icon twitter sicolorname sishadow sirounded sisquare" href="http://twitter.com/" target="_blank" data-original-title="Follow us on Twitter" data-toggle="tooltip" data-placement="top">
+<i class="icon-twitter icon-large"></i>
+</a>
+<a class="tooltips icon pinterest sicolorname sishadow sirounded sisquare" href="http://pinterest.com/" target="_blank" data-original-title="Follow us on Pinterest" data-toggle="tooltip" data-placement="top">
+<i class="icon-pinterest icon-large"></i>
+</a>
+</div>
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Set module parameters
+Position: social 
+Status: Published
+Module Assigment: On All Pages or select specific pages
+Save!
+
+
+How to activate Parallax module?
+If you are using TinyMCE or JCE editor please disable it via user manager.
+Go to Admin Joomla > Extensions > Module Manager > click to New > Custom HTML > add this code:
+
+ULTIMELAB 2 TEMPLATE
+...............................
+
+
+<div class="container">
+<div class="row-fluid">
+<div class="span12">
+<h2 class="paral">ULTIMELAB - Responsive Joomla! 2.5 / 3.0 Template</h2>
+<div class="row-fluid">
+<div class="span4">
+<div class="paralcontent">
+<div class="paralbox">
+<div class="paralicon"><i class="icon-mobile-phone"></i></div>
+<h3 class="paral boxname tlmbfoxname">100% Fully Responzive</h3>
+<p>
+This Joomla! Template is perfect for any type of website and comes with lots of awesome features.
+<br />
+<a class="quickbtn boxcart boxcartbt box4br_radius boxcart_shadow" style="margin-top: 20px;" href="http://www.linelabox.com">Join Now</a>
+</p>
+</div>
+</div>
+</div>
+
+<div class="span4">
+<div class="paralcontent">
+<div class="paralbox">
+<div class="paralicon"><i class="icon-cogs"></i></div>
+<h3 class="paral boxname tlmbfoxname">Linelabox</h3>
+<p>
+Created with Linelabox Joomla! Templates Creator. Create a unique Joomla! site within minutes.
+<br />
+<a class="quickbtn boxcart boxcartbt box4br_radius boxcart_shadow" style="margin-top: 20px;" href="http://www.linelabox.com">Join Now</a>
+</p>
+</div>
+</div>
+</div>
+
+<div class="span4">
+<div class="paralcontent">
+<div class="paralbox">
+<div class="paralicon"><i class="icon-group"></i></div>
+<h3 class="paral boxname tlmbfoxname">Support</h3>
+<p>
+We provide extensive support and keep our Joomla! templates and VirtueMart extensions up to date.
+<br />
+<a class="quickbtn boxcart boxcartbt box4br_radius boxcart_shadow" style="margin-top: 20px;" href="http://www.linelabox.com">Join Now</a>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+STORESLAB 2 TEMPLATE
+...............................
+
+<div class="paralab">
+<a class="paralabico" href="#">
+<i class="icon-phone"></i>
+</a>
+<h1 style="margin: 50px auto !important;">
+Call +000 555 444 852 
+</h1>
+<h2 style="margin: 0 auto 30px !important;"> Storeslab 2 Free Joomla! 2.5 / 3 Template </h2>
+<a class="paralabico" target="_blank" href="https://www.facebook.com/LineLab">
+<i class="icon-facebook"></i>
+</a>
+<a class="paralabico" target="_blank" href="#">
+<i class="icon-linkedin"></i>
+</a>
+<a class="paralabico" target="_blank" href="https://twitter.com/Linelabox">
+<i class="icon-twitter"></i>
+</a>
+<a class="paralabico"target="_blank" href="http://www.youtube.com/watch?v=ZxaOgKw6xb4">
+<i class="icon-youtube"></i>
+</a>
+</div>
+----------------------------------------------------------------------------------------------------------------
+
+Set module parameters
+Position: parallaxlab 
+Status: Published
+Module Assigment: On All Pages or select specific pages
+Save!
+
+Upload image > root/images/example.jpg  min width: 1920px
+
+How to activate Isotope Virtuemart product module?
+Go to Admin Joomla > Extensions > Module Manager > create new VirtueMart Products module > set Module position to [b]vmproducts[/b] > set Display type products ( featured, random etc... ) > Display Style > list based ul-li
+Add Module Class Suffix.
+
+Suffix example:
+Random Product module:  Add module Class Suffix [b] random[/b] with a leading space.
+Featured Products module:  Add module Class Suffix  [b]featured[/b] with a leading space.
+Latest Products module:  Add module Class Suffix [b]latest[/b] with a leading space.
+Best Sales module: Add module Class Suffix [b]best_sales[/b] with a leading space.
+Recently Viewed Products module: Add module Class Suffix [b]recently_viewed[/b] with a leading space.
+Save!
+
+
+How to activate Font Awesome icons?
+
+You can place Font Awesome icons just about anywhere with the <i> tag.
+To increase the size of icons relative to its container, use icon-large, icon-2x, icon-3x, or icon-4x.
+
+Exemple: <i class="icon-camera-retro"></i> for icon-camera-retro
+
+Save!
+
+If you have any questions about Linelabox Templates Creator, please post your question in our support forum. Linelabox support is available at http://www.linelabox.com/support. 
+
+Thank you!
+
+
+
+
